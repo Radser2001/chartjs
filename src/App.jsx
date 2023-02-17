@@ -23,7 +23,7 @@ function App() {
     label: UserData ? UserData.map((user) => user.year) : "No Data",
     datasets: [
       {
-        label: "Users Gained",
+        label: "Users Lost",
         data: UserData ? UserData.map((user) => user.userLost) : "No Data",
         backgroundColor: ["#EF9A9A", "#D32F2F"],
         borderColor: "#EF9A9A",
@@ -64,7 +64,7 @@ function App() {
     label: UserData ? UserData.map((user) => user.year) : "No Data",
     datasets: [
       {
-        label: "Users Gained",
+        label: "Users Lost",
         data: UserData ? UserData.map((user) => user.userLost) : "No Data",
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)", // red
